@@ -1,0 +1,171 @@
+/* pages/detail/detail.wxss */
+/*轮播图样式*/
+swiper {
+  width: 100%;
+  height: 720rpx;
+}
+/*轮播图内部图片样式*/
+swiper image {
+  display: block;
+  margin: 60rpx auto;
+  width: 660rpx;
+  height: 660rpx;
+}
+
+.text {
+  color: black;
+  font-size: 32rpx;
+  padding-top: 20rpx;
+  padding-left: 15rpx;
+}
+
+.box-demo {
+  padding: 48rpx 24rpx;
+  margin: 24rpx 24rpx 0;
+
+  background: linear-gradient(to right, #c0e0a4, #e6e5d3);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #d1e9c5;
+  border-radius: 16rpx;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 200rpx;
+  justify-content: center;
+}
+.box-demo2 {
+  margin-top: 34rpx; /* 调整这个数值来设置合适的距离 */
+  flex-direction: column-reverse;
+ 
+}
+.text2 {
+  color: gray;
+  font-size: 28rpx;
+ 
+  padding-left: 15rpx;
+}
+.text3 {
+  color: black;
+  font-size: 28rpx;
+ 
+  padding-left: 15rpx;
+}
+
+.left image {
+  width: 50rpx;
+  height: 50rpx;
+  float: left;
+  margin-right: 34rpx;
+ 
+}
+.commentbox {
+  padding: 30rpx;
+ 
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.commentbox .head {
+  font-size: 30rpx;
+  font-weight: 600;
+  text-align:left;
+  padding: 20rpx;
+  
+  margin: 12rpx 12rpx 0;
+}
+
+.user-information {
+  display: flex;
+  padding: 48rpx 24rpx;
+  margin: 24rpx 24rpx 0;
+  background: #d1e9c5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #d1e9c5, #d1e9c5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #c0e0a4, #e6e5d3);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #d1e9c5;
+  border-radius: 16rpx;
+}
+.message-me-left {
+  flex: 1; /* 左侧内容占据剩余空间 */
+  display: flex; /* 内部使用 Flexbox 布局 */
+  align-items: center; /* 垂直居中对齐 */
+}
+.user-information_img {
+  flex-shrink: 0; /* 图片不会被收缩 */
+  position: relative;
+  width: 140rpx;
+  height: 140rpx;
+  border-radius: 50%;
+  border: 4rpx solid #909e88;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  margin-right: 32rpx;
+  overflow: hidden;
+}
+
+.nickname {
+
+  display: flex; /* 创建水平的 Flexbox 容器 */
+
+  justify-content: space-between;
+  align-self: flex-start; /* 右对齐 */
+
+}
+
+.user-information_nickname {
+  padding: 5px;
+  letter-spacing: 2rpx;
+  text-align: left;
+  font-size: 22rpx;
+  word-wrap: break-word; /* 在单词边界处换行 */
+  font-weight: bold;
+  line-height: 60rpx;
+  color: #909e88;
+  text-align: left; /* 文字左对齐 */
+  overflow: hidden; /* 文字不超出边界 */
+}
+
+.user-information_introduction {
+  padding: 5px;
+  letter-spacing: 2rpx;
+  text-align: left;
+  font-size: 22rpx;
+  line-height: 40rpx;
+  word-wrap: break-word; /* 根据需要在单词边界处换行 */
+  overflow: hidden; /* 文字不超出边界 */
+  color: #909e88;
+  margin-top: 10rpx;
+ 
+}
+
+.input-container {
+  display: flex;
+  align-items: center;
+  margin-top: 10rpx;
+}
+
+
+button {
+  flex-shrink: 0;
+  margin-left: 20rpx;
+}
+.bb{
+ 
+  width: 50px;
+  height: 40px;
+  font-size: 20px;
+  font-weight: 700;
+  color: black;
+  background: linear-gradient(to right, #c0e0a4, #e6e5d3);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 0;
+  border-radius: 5px;
+}
+.box {
+ 
+
+  flex: 2; /* 右侧内容占据剩余空间 */
+  display: flex; /* 内部使用 Flexbox 布局 */
+  flex-direction: column;
+  font-size: 18rpx; /* 缩小字体大小 */
+  align-self: flex-end; /* 右对齐 */
+  margin-left: auto; /* 整体靠右 */
+}

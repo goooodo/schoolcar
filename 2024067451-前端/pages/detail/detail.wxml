@@ -1,0 +1,55 @@
+<!--pages/detail/detail.wxml-->
+<swiper indicator-dots autoplay interval="3000">
+  <swiper-item>
+    <image src="{{avatar}}" />
+  </swiper-item>
+</swiper>
+
+<view class='box-demo'>
+  <view class='box-demo2'>
+  <text class='text'>姓名：{{name}}</text>
+  <text class='text'>性别：{{sex}}</text>
+  <text class='text'>电话：{{tele}}</text>
+ </view>
+ <view class='box-demo2'>
+  <view class="left">
+        <image src="/image/praise.png" bindtap="add"></image>
+      </view>
+  <text class='text2'>已有{{people}}人赞过</text>
+  
+ </view>
+</view>
+
+  <view class="cu-bar input">
+  
+    <input class="solid-bottom" focus="{{false}}" maxlength="300" cursor-spacing="10" bindinput="handleInput" placeholder="输入评价" value="{{inputValue}}"></input>
+  
+    <button class="bb" bindtap="sendcomment">发表</button>
+  </view>
+<view class="commentbox">
+  <view class='box-demo2'>
+  <view class="left">
+        <image src="/image/comment.png"></image>
+      </view>
+  <text class='text3'>评论</text>
+  
+ </view>
+</view>
+  <view wx:for="{{commentData}}" wx:key="index">
+    <view class="user-information relative" data-index="{{index}}">
+      <view class="message-me-left">
+        <image class="user-information_img" src="{{item.commentAvatar}}"></image>
+  </view>
+    
+    <view class="box">
+    <view class="nickname">
+      <view class="user-information_nickname">{{item.commentName}}</view>
+      <view class="user-information_introduction">
+      <view wx:if="{{item.commentIdentity === '1'}}">乘客</view>
+  <view wx:else>司机</view> </view> 
+      <view class="user-information_introduction">{{item.time}}</view> </view>
+      <view class="user-information_introduction">{{item.driverComment}}</view>
+   
+  </view>
+</view>
+</view>

@@ -1,0 +1,68 @@
+{
+  "pages": [
+    "pages/start/start",
+    "pages/login/login",
+    "pages/map/map",
+    "pages/site/site",
+    "pages/home/home",
+    "pages/chat/chat",
+    "pages/mine/mine",
+    "pages/info/info",
+    "pages/detail/detail",
+    "pages/newsdetail/newsdetail",
+    "custon-tab-bar/index.wxml",
+    "custon-tab-bar/index"
+  ],
+  "permission": {
+    "scope.userLocation": {
+      "desc": "你的位置信息将用于小程序位置接口的效果展示"
+    }
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "校车宝",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/map/map",
+        "text": "车辆位置",
+        "iconPath": "/image/tab/map.png",
+        "selectedIconPath": "/image/tab/selectedmap.png"
+      },
+      {
+        "pagePath": "pages/site/site",
+        "text": "站点信息",
+        "iconPath": "/image/tab/site.png",
+        "selectedIconPath": "/image/tab/selectedsite.png"
+      },
+      {
+        "pagePath": "pages/home/home",
+        "text": "广场",
+        "iconPath": "/image/tab/home.png",
+        "selectedIconPath": "/image/tab/selectedhome.png"
+      },
+      {
+        "pagePath": "pages/chat/chat",
+        "text": "候车聊天室",
+        "iconPath": "/image/tab/chat.png",
+        "selectedIconPath": "/image/tab/selectedchat.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "个人管理",
+        "iconPath": "/image/tab/mine.png",
+        "selectedIconPath": "/image/tab/selectedmine.png"
+      }
+    ]
+  },
+ 
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "useExtendedLib": {
+    "weui": true
+  },
+  "lazyCodeLoading": "requiredComponents"
+}

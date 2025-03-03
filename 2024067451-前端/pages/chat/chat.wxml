@@ -1,0 +1,57 @@
+<!--pages/chat/chat.wxml-->
+<view class="container">
+  <scroll-view class="message-container" scroll-y scroll-into-view="{{toView}}">
+    <view wx:for="{{messages}}" wx:for-item="item" class="message-item">
+      <view wx:if="{{item.cla === 1}}">
+      <!-- 根据消息的发送者设置不同的样式 -->
+      <view class="message-me">
+        <view class="message-me-left">
+    <image class="user_img" src="{{item.avatar}}"></image>
+  </view>
+       
+      <view class="message-box">
+      
+      <text class="Identity">{{ item.sender}}{{ item.time}}</text>
+      
+ 
+        <!-- 消息内容 -->
+        <text style="margin-top: 5px; font-size: 22px; color: black;">{{ item.content }}</text></view>
+      </view>
+    </view>
+    <view wx:if="{{item.cla === 0}}">
+      <!-- 根据消息的发送者设置不同的样式 -->
+      <view class="message-other">
+        <view class="message-me-left">
+    <image class="user_img" src="{{item.avatar}}"></image>
+  </view>
+        <!-- 消息内容 -->
+        <view class="message-box">
+      
+          <text class="Identity">{{ item.sender}}{{ item.time}}</text>
+        <!-- 消息内容 -->
+        <text style="margin-top: 5px; font-size: 22px; color: black;">{{ item.content }}</text></view>
+      </view>
+    </view>
+  </view>
+  </scroll-view>
+  <view class="cu-bar foot input {{InputBottom!=0?'cur':''}}" style="bottom:{{InputBottom}}px">
+  <view class="action">
+    <text class="cuIcon-sound text-grey"></text>
+  </view>
+  <input class="solid-bottom" cursor-spacing="10" bindinput="handleInput" placeholder="输入消息" value="{{inputValue}}"></input>
+  <view class="action">
+    <text class="cuIcon-emojifill text-grey"></text>
+  </view>
+  <button class="cu-btn bg-green shadow" bindtap="sendMessage">发送</button>
+</view>
+<view class="cu-bar input">
+    <view class="action">
+      <text class="cuIcon-sound text-grey"></text>
+    </view>
+    <input class="solid-bottom" focus="{{false}}" maxlength="300" cursor-spacing="10" bindinput="handleInput" placeholder="输入消息" value="{{inputValue}}"></input>
+    <view class="action">
+      <text class="cuIcon-emojifill text-grey"></text>
+    </view>
+    <button class="cu-btn bg-green shadow-blur" bindtap="sendMessage">发送</button>
+  </view>
+</view>

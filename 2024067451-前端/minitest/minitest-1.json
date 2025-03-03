@@ -1,0 +1,1628 @@
+{
+  "meta": {
+    "caseId": "e7ddbef9-57e2-4286-9389-afa5055964ce",
+    "caseName": "minitest-1",
+    "remarks": "",
+    "version": "0.0.1",
+    "startTime": 1712318326074,
+    "endTime": 1712318373553,
+    "appid": "wx8c3c4341fe68df0c",
+    "casePath": "",
+    "caseType": "normal",
+    "commonParams": [
+      {
+        "key": "1712318373595",
+        "name": "",
+        "value": ""
+      }
+    ]
+  },
+  "env": {
+    "wxapplibVersion": "3.0.2",
+    "devtoolsVersion": "1.06.2308310",
+    "openid": "o6zAJs6BOYcx8RRfKD_lfX2syXDc",
+    "entry": {
+      "path": "pages/login/login",
+      "query": "",
+      "scene": 1001
+    },
+    "mock": [
+      "none"
+    ],
+    "maxWaitFor": 10000,
+    "ignoreSelectors": [],
+    "mockAPIs": [],
+    "cleanCache": [
+      "none"
+    ],
+    "groupTouch": false,
+    "replaySetting": {
+      "screenshot": "none"
+    },
+    "simulatorType": "wechat",
+    "device": "iPhone 14 Pro Max",
+    "recordAPIs": []
+  },
+  "commands": [
+    {
+      "layer": "tool",
+      "commandType": "operate",
+      "command": "startRecord",
+      "waitfor": 0,
+      "timeStamp": 1712318326074,
+      "desc": ""
+    },
+    {
+      "tagName": "view",
+      "command": "touchstart",
+      "target": "view.head",
+      "value": null,
+      "path": "pages/login/login",
+      "text": "选择身份：司机",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 286.5375061035156,
+            "clientY": 694.85009765625,
+            "force": 1,
+            "pageX": 286.5375061035156,
+            "pageY": 694.85009765625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 372,
+            "screenY": 618.4000244140625
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 286.5375061035156,
+            "clientY": 694.85009765625,
+            "force": 1,
+            "pageX": 286.5375061035156,
+            "pageY": 694.85009765625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 372,
+            "screenY": 618.4000244140625
+          }
+        ]
+      },
+      "targetCandidates": [
+        "view.head",
+        ".head",
+        "/view[2]/view/picker/view"
+      ],
+      "timeStamp": 4345,
+      "waitfor": 4345,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "view",
+      "command": "touchend",
+      "target": "view.head",
+      "value": null,
+      "path": "pages/login/login",
+      "text": "选择身份：司机",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 286.5375061035156,
+            "clientY": 694.85009765625,
+            "pageX": 286.5375061035156,
+            "pageY": 694.85009765625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 372,
+            "screenY": 618.4000244140625
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "view.head",
+        ".head",
+        "/view[2]/view/picker/view"
+      ],
+      "timeStamp": 4455,
+      "waitfor": 110,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "view",
+      "command": "tap",
+      "target": "view.head",
+      "value": null,
+      "path": "pages/login/login",
+      "text": "选择身份：司机",
+      "eventData": {
+        "detail": {
+          "x": 286.5375061035156,
+          "y": 694.85009765625
+        },
+        "changedTouches": [
+          {
+            "clientX": 286.5375061035156,
+            "clientY": 694.85009765625,
+            "force": 1,
+            "pageX": 286.5375061035156,
+            "pageY": 694.85009765625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 372,
+            "screenY": 618.4000244140625
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 286.5375061035156,
+            "clientY": 694.85009765625,
+            "force": 1,
+            "pageX": 286.5375061035156,
+            "pageY": 694.85009765625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 372,
+            "screenY": 618.4000244140625
+          }
+        ]
+      },
+      "targetCandidates": [
+        "view.head",
+        ".head",
+        "/view[2]/view/picker/view"
+      ],
+      "timeStamp": 4455,
+      "waitfor": 0,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "timeStamp": 6445,
+      "waitfor": 1990,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "native",
+      "command": "hidePickerView",
+      "data": {
+        "value": "1"
+      },
+      "target": "/view[2]/view/picker"
+    },
+    {
+      "tagName": "picker",
+      "command": "change",
+      "target": "/view[2]/view/picker",
+      "value": null,
+      "path": "pages/login/login",
+      "text": "选择身份：司机",
+      "eventData": {
+        "detail": {
+          "value": "1"
+        },
+        "changedTouches": [],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[2]/view/picker"
+      ],
+      "timeStamp": 7448,
+      "waitfor": 1003,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "touchstart",
+      "target": "/view[2]/view/button",
+      "value": null,
+      "path": "pages/login/login",
+      "text": "开始使用",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 253.11253356933594,
+            "clientY": 748.5751342773438,
+            "force": 1,
+            "pageX": 253.11253356933594,
+            "pageY": 748.5751342773438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 349.6000061035156,
+            "screenY": 654.4000244140625
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 253.11253356933594,
+            "clientY": 748.5751342773438,
+            "force": 1,
+            "pageX": 253.11253356933594,
+            "pageY": 748.5751342773438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 349.6000061035156,
+            "screenY": 654.4000244140625
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[2]/view/button"
+      ],
+      "timeStamp": 7849,
+      "waitfor": 401,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "touchend",
+      "target": "/view[2]/view/button",
+      "value": null,
+      "path": "pages/login/login",
+      "text": "开始使用",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 253.5074920654297,
+            "clientY": 751.0448608398438,
+            "pageX": 253.5074920654297,
+            "pageY": 751.0448608398438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 349.6000061035156,
+            "screenY": 656
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[2]/view/button"
+      ],
+      "timeStamp": 7970,
+      "waitfor": 121,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "tap",
+      "target": "/view[2]/view/button",
+      "value": null,
+      "path": "pages/login/login",
+      "text": "开始使用",
+      "eventData": {
+        "detail": {
+          "x": 253.5074920654297,
+          "y": 751.0448608398438
+        },
+        "changedTouches": [
+          {
+            "clientX": 253.11253356933594,
+            "clientY": 748.5751342773438,
+            "force": 1,
+            "pageX": 253.11253356933594,
+            "pageY": 748.5751342773438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 349.6000061035156,
+            "screenY": 654.4000244140625
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 253.11253356933594,
+            "clientY": 748.5751342773438,
+            "force": 1,
+            "pageX": 253.11253356933594,
+            "pageY": 748.5751342773438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 349.6000061035156,
+            "screenY": 654.4000244140625
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[2]/view/button"
+      ],
+      "timeStamp": 7972,
+      "waitfor": 2,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "timeStamp": 10395,
+      "waitfor": 2423,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "native",
+      "command": "switchTab",
+      "text": "候车聊天室",
+      "data": {
+        "url": "pages/chat/chat"
+      }
+    },
+    {
+      "timeStamp": 12645,
+      "waitfor": 2250,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "native",
+      "command": "switchTab",
+      "text": "站点信息",
+      "data": {
+        "url": "pages/site/site"
+      }
+    },
+    {
+      "tagName": "",
+      "command": "scroll",
+      "target": "/",
+      "path": "pages/site/site",
+      "eventData": {
+        "scrollDetail": {
+          "scrollTop": 560,
+          "scrollLeft": 0
+        }
+      },
+      "targetCandidates": [],
+      "timeStamp": 14904,
+      "waitfor": 2259,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "",
+      "command": "scroll",
+      "target": "/",
+      "path": "pages/site/site",
+      "eventData": {
+        "scrollDetail": {
+          "scrollTop": 0,
+          "scrollLeft": 0
+        }
+      },
+      "targetCandidates": [],
+      "timeStamp": 15554,
+      "waitfor": 650,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[2]/view[1]/scroll-view/view[2]/view/image",
+      "value": null,
+      "path": "pages/site/site",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 15.50000286102295,
+            "clientY": 288.7875671386719,
+            "force": 1,
+            "pageX": 15.50000286102295,
+            "pageY": 288.7875671386719,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 190.40000915527344,
+            "screenY": 412
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 15.50000286102295,
+            "clientY": 288.7875671386719,
+            "force": 1,
+            "pageX": 15.50000286102295,
+            "pageY": 288.7875671386719,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 190.40000915527344,
+            "screenY": 412
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[2]/view[1]/scroll-view/view[2]/view/image"
+      ],
+      "timeStamp": 16414,
+      "waitfor": 860,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[2]/view[1]/scroll-view/view[2]/view/image",
+      "value": null,
+      "path": "pages/site/site",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 15.50000286102295,
+            "clientY": 288.7875671386719,
+            "pageX": 15.50000286102295,
+            "pageY": 288.7875671386719,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 190.40000915527344,
+            "screenY": 412
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[2]/view[1]/scroll-view/view[2]/view/image"
+      ],
+      "timeStamp": 16494,
+      "waitfor": 80,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[2]/view[1]/scroll-view/view[2]/view/image",
+      "value": null,
+      "path": "pages/site/site",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 15.50000286102295,
+          "y": 288.7875671386719
+        },
+        "changedTouches": [
+          {
+            "clientX": 15.50000286102295,
+            "clientY": 288.7875671386719,
+            "force": 1,
+            "pageX": 15.50000286102295,
+            "pageY": 288.7875671386719,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 190.40000915527344,
+            "screenY": 412
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 15.50000286102295,
+            "clientY": 288.7875671386719,
+            "force": 1,
+            "pageX": 15.50000286102295,
+            "pageY": 288.7875671386719,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 190.40000915527344,
+            "screenY": 412
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[2]/view[1]/scroll-view/view[2]/view/image"
+      ],
+      "timeStamp": 16495,
+      "waitfor": 1,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "",
+      "command": "scroll",
+      "target": "/",
+      "path": "pages/site/site",
+      "eventData": {
+        "scrollDetail": {
+          "scrollTop": 597.014892578125,
+          "scrollLeft": 0
+        }
+      },
+      "targetCandidates": [],
+      "timeStamp": 17552,
+      "waitfor": 1057,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "",
+      "command": "scroll",
+      "target": "/",
+      "path": "pages/site/site",
+      "eventData": {
+        "scrollDetail": {
+          "scrollTop": 0.00002441406286379788,
+          "scrollLeft": 0
+        }
+      },
+      "targetCandidates": [],
+      "timeStamp": 17969,
+      "waitfor": 417,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchstart",
+      "target": "/view[2]/view[2]/view/view[1]/view/view/view[1]/image",
+      "value": null,
+      "path": "pages/site/site",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 263.8499755859375,
+            "clientY": 266.1000061035156,
+            "force": 1,
+            "pageX": 263.8499755859375,
+            "pageY": 266.10003662109375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 356.8000183105469,
+            "screenY": 396.8000183105469
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 263.8499755859375,
+            "clientY": 266.1000061035156,
+            "force": 1,
+            "pageX": 263.8499755859375,
+            "pageY": 266.10003662109375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 356.8000183105469,
+            "screenY": 396.8000183105469
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[2]/view[2]/view/view[1]/view/view/view[1]/image"
+      ],
+      "timeStamp": 18316,
+      "waitfor": 347,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "touchend",
+      "target": "/view[2]/view[2]/view/view[1]/view/view/view[1]/image",
+      "value": null,
+      "path": "pages/site/site",
+      "text": "",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 263.8499755859375,
+            "clientY": 266.1000061035156,
+            "pageX": 263.8499755859375,
+            "pageY": 266.10003662109375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 356.8000183105469,
+            "screenY": 396.8000183105469
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view[2]/view[2]/view/view[1]/view/view/view[1]/image"
+      ],
+      "timeStamp": 18398,
+      "waitfor": 82,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "image",
+      "command": "tap",
+      "target": "/view[2]/view[2]/view/view[1]/view/view/view[1]/image",
+      "value": null,
+      "path": "pages/site/site",
+      "text": "",
+      "eventData": {
+        "detail": {
+          "x": 263.8499755859375,
+          "y": 266.10003662109375
+        },
+        "changedTouches": [
+          {
+            "clientX": 263.8499755859375,
+            "clientY": 266.1000061035156,
+            "force": 1,
+            "pageX": 263.8499755859375,
+            "pageY": 266.10003662109375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 356.8000183105469,
+            "screenY": 396.8000183105469
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 263.8499755859375,
+            "clientY": 266.1000061035156,
+            "force": 1,
+            "pageX": 263.8499755859375,
+            "pageY": 266.10003662109375,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 356.8000183105469,
+            "screenY": 396.8000183105469
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view[2]/view[2]/view/view[1]/view/view/view[1]/image"
+      ],
+      "timeStamp": 18400,
+      "waitfor": 2,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "",
+      "command": "scroll",
+      "target": "/",
+      "path": "pages/detail/detail",
+      "eventData": {
+        "scrollDetail": {
+          "scrollTop": 597.014892578125,
+          "scrollLeft": 0
+        }
+      },
+      "targetCandidates": [],
+      "timeStamp": 19970,
+      "waitfor": 1570,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "",
+      "command": "scroll",
+      "target": "/",
+      "path": "pages/detail/detail",
+      "eventData": {
+        "scrollDetail": {
+          "scrollTop": 149.25376892089844,
+          "scrollLeft": 0
+        }
+      },
+      "targetCandidates": [],
+      "timeStamp": 20618,
+      "waitfor": 648,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "",
+      "command": "scroll",
+      "target": "/",
+      "path": "pages/detail/detail",
+      "eventData": {
+        "scrollDetail": {
+          "scrollTop": 0,
+          "scrollLeft": 0
+        }
+      },
+      "targetCandidates": [],
+      "timeStamp": 20935,
+      "waitfor": 317,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "timeStamp": 22927,
+      "waitfor": 1992,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "native",
+      "command": "navigateLeft",
+      "text": ""
+    },
+    {
+      "tagName": "",
+      "command": "scroll",
+      "target": "/",
+      "path": "pages/site/site",
+      "eventData": {
+        "scrollDetail": {
+          "scrollTop": 149.25375366210938,
+          "scrollLeft": 0
+        }
+      },
+      "targetCandidates": [],
+      "timeStamp": 24004,
+      "waitfor": 1077,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "timeStamp": 24261,
+      "waitfor": 257,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "native",
+      "command": "switchTab",
+      "text": "候车聊天室",
+      "data": {
+        "url": "pages/chat/chat"
+      }
+    },
+    {
+      "tagName": "input",
+      "command": "touchstart",
+      "target": "/view/view[1]/input",
+      "childName": "input",
+      "path": "pages/chat/chat",
+      "text": "输入消息",
+      "eventData": {
+        "detail": {}
+      },
+      "targetCandidates": [
+        "/view/view[1]/input"
+      ],
+      "timeStamp": 25342,
+      "waitfor": 1081,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "input",
+      "command": "touchend",
+      "target": "/view/view[1]/input",
+      "childName": "input",
+      "path": "pages/chat/chat",
+      "text": "输入消息",
+      "eventData": {
+        "detail": {}
+      },
+      "targetCandidates": [
+        "/view/view[1]/input"
+      ],
+      "timeStamp": 25388,
+      "waitfor": 46,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "input",
+      "command": "tap",
+      "target": "/view/view[1]/input",
+      "childName": "input",
+      "path": "pages/chat/chat",
+      "text": "输入消息",
+      "eventData": {
+        "detail": {
+          "x": 103.85002899169922,
+          "y": 731.7750244140625
+        }
+      },
+      "targetCandidates": [
+        "/view/view[1]/input"
+      ],
+      "timeStamp": 25389,
+      "waitfor": 1,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "input",
+      "command": "input",
+      "target": "/view/view[1]/input",
+      "value": "1111",
+      "childName": "input",
+      "path": "pages/chat/chat",
+      "text": "",
+      "eventData": {},
+      "targetCandidates": [
+        "/view/view[1]/input"
+      ],
+      "timeStamp": 26300,
+      "waitfor": 911,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "touchstart",
+      "target": "button.cu-btn.bg-green.shadow",
+      "value": null,
+      "path": "pages/chat/chat",
+      "text": "发送",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 275.800048828125,
+            "clientY": 736.550048828125,
+            "force": 1,
+            "pageX": 275.800048828125,
+            "pageY": 736.550048828125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 364.8000183105469,
+            "screenY": 712
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 275.800048828125,
+            "clientY": 736.550048828125,
+            "force": 1,
+            "pageX": 275.800048828125,
+            "pageY": 736.550048828125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 364.8000183105469,
+            "screenY": 712
+          }
+        ]
+      },
+      "targetCandidates": [
+        "button.cu-btn.bg-green.shadow",
+        ".cu-btn.bg-green.shadow",
+        "/view/view[1]/button"
+      ],
+      "timeStamp": 26693,
+      "waitfor": 393,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "touchend",
+      "target": "button.cu-btn.bg-green.shadow",
+      "value": null,
+      "path": "pages/chat/chat",
+      "text": "发送",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 276.1940612792969,
+            "clientY": 738.6151733398438,
+            "pageX": 276.1940612792969,
+            "pageY": 738.6151733398438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 364.8000183105469,
+            "screenY": 713.6000366210938
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "button.cu-btn.bg-green.shadow",
+        ".cu-btn.bg-green.shadow",
+        "/view/view[1]/button"
+      ],
+      "timeStamp": 26790,
+      "waitfor": 97,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "tap",
+      "target": "button.cu-btn.bg-green.shadow",
+      "value": null,
+      "path": "pages/chat/chat",
+      "text": "发送",
+      "eventData": {
+        "detail": {
+          "x": 276.1940612792969,
+          "y": 738.6151733398438
+        },
+        "changedTouches": [
+          {
+            "clientX": 275.800048828125,
+            "clientY": 736.550048828125,
+            "force": 1,
+            "pageX": 275.800048828125,
+            "pageY": 736.550048828125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 364.8000183105469,
+            "screenY": 712
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 275.800048828125,
+            "clientY": 736.550048828125,
+            "force": 1,
+            "pageX": 275.800048828125,
+            "pageY": 736.550048828125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 364.8000183105469,
+            "screenY": 712
+          }
+        ]
+      },
+      "targetCandidates": [
+        "button.cu-btn.bg-green.shadow",
+        ".cu-btn.bg-green.shadow",
+        "/view/view[1]/button"
+      ],
+      "timeStamp": 26791,
+      "waitfor": 1,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "timeStamp": 31026,
+      "waitfor": 4235,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "native",
+      "command": "switchTab",
+      "text": "车辆位置",
+      "data": {
+        "url": "pages/map/map"
+      }
+    },
+    {
+      "tagName": "map",
+      "command": "updated",
+      "target": "/view/map",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "教师公寓站\n阳光苑站\n新勇活动中心站\n溢香楼站\n兰园 竹园站\n格物楼站\n上林广场站\n图书馆 文汇楼站\n校务楼站\n北大门站\n教育博物馆站\n文津楼站\n终南音乐厅站\n体育场 致知楼站\n©2024 Tencent - GS粤(2023)1171号\n地图",
+      "eventData": {
+        "changedTouches": [],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view/map"
+      ],
+      "timeStamp": 32119,
+      "waitfor": 1093,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "view",
+      "command": "touchstart",
+      "target": "view.seachbox",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "获取当前位置\n等车\n您目前的乘车状态：未排队",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 210.1250457763672,
+            "clientY": 734.16259765625,
+            "force": 1,
+            "pageX": 210.1250457763672,
+            "pageY": 734.16259765625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 320.8000183105469,
+            "screenY": 710.4000244140625
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 210.1250457763672,
+            "clientY": 734.16259765625,
+            "force": 1,
+            "pageX": 210.1250457763672,
+            "pageY": 734.16259765625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 320.8000183105469,
+            "screenY": 710.4000244140625
+          }
+        ]
+      },
+      "targetCandidates": [
+        "view.seachbox",
+        ".seachbox",
+        "/view/view/view"
+      ],
+      "timeStamp": 33306,
+      "waitfor": 1187,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "view",
+      "command": "longpress",
+      "target": "view.seachbox",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "获取当前位置\n等车\n您目前的乘车状态：未排队",
+      "eventData": {
+        "detail": {
+          "x": 210.1250457763672,
+          "y": 734.16259765625
+        },
+        "changedTouches": [
+          {
+            "clientX": 210.1250457763672,
+            "clientY": 734.16259765625,
+            "force": 1,
+            "pageX": 210.1250457763672,
+            "pageY": 734.16259765625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 320.8000183105469,
+            "screenY": 710.4000244140625
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 210.1250457763672,
+            "clientY": 734.16259765625,
+            "force": 1,
+            "pageX": 210.1250457763672,
+            "pageY": 734.16259765625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 320.8000183105469,
+            "screenY": 710.4000244140625
+          }
+        ]
+      },
+      "targetCandidates": [
+        "view.seachbox",
+        ".seachbox",
+        "/view/view/view"
+      ],
+      "timeStamp": 33673,
+      "waitfor": 367,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "view",
+      "command": "touchmove",
+      "target": "view.seachbox",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "获取当前位置\n等车\n您目前的乘车状态：未排队",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 259.4776306152344,
+            "clientY": 403.0926208496094,
+            "force": 1,
+            "pageX": 259.4776306152344,
+            "pageY": 403.0926208496094,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 353.6000061035156,
+            "screenY": 488.8000183105469
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 259.4776306152344,
+            "clientY": 403.0926208496094,
+            "force": 1,
+            "pageX": 259.4776306152344,
+            "pageY": 403.0926208496094,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 353.6000061035156,
+            "screenY": 488.8000183105469
+          }
+        ]
+      },
+      "targetCandidates": [
+        "view.seachbox",
+        ".seachbox",
+        "/view/view/view"
+      ],
+      "timeStamp": 34371,
+      "waitfor": 698,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "view",
+      "command": "touchend",
+      "target": "view.seachbox",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "获取当前位置\n等车\n您目前的乘车状态：未排队",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 259.4776306152344,
+            "clientY": 403.0926208496094,
+            "pageX": 259.4776306152344,
+            "pageY": 403.0926208496094,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 353.6000061035156,
+            "screenY": 488.8000183105469
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "view.seachbox",
+        ".seachbox",
+        "/view/view/view"
+      ],
+      "timeStamp": 34379,
+      "waitfor": 8,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "touchstart",
+      "target": "/view/view/view/view[2]/button",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "获取当前位置",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 256.6875,
+            "clientY": 561.0250244140625,
+            "force": 1,
+            "pageX": 256.6875,
+            "pageY": 561.0250244140625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 352,
+            "screenY": 594.4000244140625
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 256.6875,
+            "clientY": 561.0250244140625,
+            "force": 1,
+            "pageX": 256.6875,
+            "pageY": 561.0250244140625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 352,
+            "screenY": 594.4000244140625
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view/view/view/view[2]/button"
+      ],
+      "timeStamp": 35512,
+      "waitfor": 1133,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "touchend",
+      "target": "/view/view/view/view[2]/button",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "获取当前位置",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 256.6875,
+            "clientY": 561.0250244140625,
+            "pageX": 256.6875,
+            "pageY": 561.0250244140625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 352,
+            "screenY": 594.4000244140625
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view/view/view/view[2]/button"
+      ],
+      "timeStamp": 35628,
+      "waitfor": 116,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "tap",
+      "target": "/view/view/view/view[2]/button",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "获取当前位置",
+      "eventData": {
+        "detail": {
+          "x": 256.6875,
+          "y": 561.0250244140625
+        },
+        "changedTouches": [
+          {
+            "clientX": 256.6875,
+            "clientY": 561.0250244140625,
+            "force": 1,
+            "pageX": 256.6875,
+            "pageY": 561.0250244140625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 352,
+            "screenY": 594.4000244140625
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 256.6875,
+            "clientY": 561.0250244140625,
+            "force": 1,
+            "pageX": 256.6875,
+            "pageY": 561.0250244140625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 352,
+            "screenY": 594.4000244140625
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view/view/view/view[2]/button"
+      ],
+      "timeStamp": 35630,
+      "waitfor": 2,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "map",
+      "command": "updated",
+      "target": "/view/map",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "教师公寓站\n阳光苑站\n新勇活动中心站\n溢香楼站\n兰园 竹园站\n格物楼站\n上林广场站\n图书馆 文汇楼站\n校务楼站\n北大门站\n教育博物馆站\n文津楼站\n终南音乐厅站\n体育场 致知楼站\n司机1\n司机2\n司机4\n©2024 Tencent - GS粤(2023)1171号\n地图",
+      "eventData": {
+        "changedTouches": [],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view/map"
+      ],
+      "timeStamp": 36338,
+      "waitfor": 708,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "touchstart",
+      "target": "/view/view/view/view[2]/button",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "获取当前位置",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 205.3500213623047,
+            "clientY": 565.800048828125,
+            "force": 1,
+            "pageX": 205.3500213623047,
+            "pageY": 565.800048828125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 317.6000061035156,
+            "screenY": 597.6000366210938
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 205.3500213623047,
+            "clientY": 565.800048828125,
+            "force": 1,
+            "pageX": 205.3500213623047,
+            "pageY": 565.800048828125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 317.6000061035156,
+            "screenY": 597.6000366210938
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view/view/view/view[2]/button"
+      ],
+      "timeStamp": 38295,
+      "waitfor": 1957,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "touchend",
+      "target": "/view/view/view/view[2]/button",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "获取当前位置",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 205.7462615966797,
+            "clientY": 567.8687744140625,
+            "pageX": 205.7462615966797,
+            "pageY": 567.8687744140625,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 317.6000061035156,
+            "screenY": 599.2000122070312
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view/view/view/view[2]/button"
+      ],
+      "timeStamp": 38427,
+      "waitfor": 132,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "tap",
+      "target": "/view/view/view/view[2]/button",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "获取当前位置",
+      "eventData": {
+        "detail": {
+          "x": 205.7462615966797,
+          "y": 567.8687744140625
+        },
+        "changedTouches": [
+          {
+            "clientX": 205.3500213623047,
+            "clientY": 565.800048828125,
+            "force": 1,
+            "pageX": 205.3500213623047,
+            "pageY": 565.800048828125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 317.6000061035156,
+            "screenY": 597.6000366210938
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 205.3500213623047,
+            "clientY": 565.800048828125,
+            "force": 1,
+            "pageX": 205.3500213623047,
+            "pageY": 565.800048828125,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 317.6000061035156,
+            "screenY": 597.6000366210938
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view/view/view/view[2]/button"
+      ],
+      "timeStamp": 38428,
+      "waitfor": 1,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "touchstart",
+      "target": "/view/view/view/view[3]/button",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "等车",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 219.67503356933594,
+            "clientY": 627.8876342773438,
+            "force": 1,
+            "pageX": 219.67503356933594,
+            "pageY": 627.8876342773438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 327.20001220703125,
+            "screenY": 639.2000122070312
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 219.67503356933594,
+            "clientY": 627.8876342773438,
+            "force": 1,
+            "pageX": 219.67503356933594,
+            "pageY": 627.8876342773438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 327.20001220703125,
+            "screenY": 639.2000122070312
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view/view/view/view[3]/button"
+      ],
+      "timeStamp": 39423,
+      "waitfor": 995,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "touchend",
+      "target": "/view/view/view/view[3]/button",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "等车",
+      "eventData": {
+        "detail": {},
+        "changedTouches": [
+          {
+            "clientX": 219.67503356933594,
+            "clientY": 627.8876342773438,
+            "pageX": 219.67503356933594,
+            "pageY": 627.8876342773438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 327.20001220703125,
+            "screenY": 639.2000122070312
+          }
+        ],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view/view/view/view[3]/button"
+      ],
+      "timeStamp": 39515,
+      "waitfor": 92,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "button",
+      "command": "tap",
+      "target": "/view/view/view/view[3]/button",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "等车",
+      "eventData": {
+        "detail": {
+          "x": 219.67503356933594,
+          "y": 627.8876342773438
+        },
+        "changedTouches": [
+          {
+            "clientX": 219.67503356933594,
+            "clientY": 627.8876342773438,
+            "force": 1,
+            "pageX": 219.67503356933594,
+            "pageY": 627.8876342773438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 327.20001220703125,
+            "screenY": 639.2000122070312
+          }
+        ],
+        "touches": [
+          {
+            "clientX": 219.67503356933594,
+            "clientY": 627.8876342773438,
+            "force": 1,
+            "pageX": 219.67503356933594,
+            "pageY": 627.8876342773438,
+            "radiusX": 11.5,
+            "radiusY": 11.5,
+            "screenX": 327.20001220703125,
+            "screenY": 639.2000122070312
+          }
+        ]
+      },
+      "targetCandidates": [
+        "/view/view/view/view[3]/button"
+      ],
+      "timeStamp": 39517,
+      "waitfor": 2,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "tagName": "map",
+      "command": "updated",
+      "target": "/view/map",
+      "value": null,
+      "path": "pages/map/map",
+      "text": "教师公寓站\n阳光苑站\n新勇活动中心站\n溢香楼站\n兰园 竹园站\n格物楼站\n上林广场站\n图书馆 文汇楼站\n校务楼站\n北大门站\n教育博物馆站\n文津楼站\n终南音乐厅站\n体育场 致知楼站\n司机1\n司机2\n司机4\n©2024 Tencent - GS粤(2023)1171号\n地图",
+      "eventData": {
+        "changedTouches": [],
+        "touches": []
+      },
+      "targetCandidates": [
+        "/view/map"
+      ],
+      "timeStamp": 46328,
+      "waitfor": 6811,
+      "desc": "",
+      "commandType": "operate",
+      "layer": "pageframe"
+    },
+    {
+      "timeStamp": 47479,
+      "waitfor": 1151,
+      "desc": "",
+      "layer": "tool",
+      "commandType": "operate",
+      "command": "stopRecord"
+    }
+  ]
+}

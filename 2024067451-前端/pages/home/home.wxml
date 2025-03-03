@@ -1,0 +1,37 @@
+<!-- 公告 start-->
+<view class='notice'>
+  <view class='notice-contain'>
+    <text class="cuIcon-notificationfill text-yellow"></text>
+    <view class="notice-containTitle">公告栏</view>
+    <swiper class="tab-right" vertical="true" autoplay="true" circular="true" interval="5000" display-multiple-items='1'>
+      <view class="right-item">
+        <block wx:for="{{msgList}}">
+          <swiper-item>
+            <view class='content-item'>
+              <view class="swiper-item text-black text-bold">{{item.title}}</view>
+            </view>
+          </swiper-item>
+        </block>
+      </view>
+    </swiper>
+  </view>
+</view>
+<!-- 公告 end -->
+
+<view class="cu-card article {{isCard?'no-card':''}}"  wx:for="{{userData}}" wx:key="index">
+  <view class="cu-item shadow" data-index="{{index}}" bindtap="detail">
+    <view class="title">
+      <view class="text-cut">{{item.theam}}</view>
+    </view>
+    <view class="content">
+      <image src="{{item.photo}}" mode="aspectFill"></image>
+      <view class="desc">
+        <view class="text-content"> {{item.context}}</view>
+        <view>
+          <view class="cu-tag bg-red light sm round">{{item.kind}}</view>
+          <view class="cu-tag bg-green light sm round">{{item.kind2}}</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

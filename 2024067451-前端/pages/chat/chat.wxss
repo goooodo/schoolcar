@@ -1,0 +1,93 @@
+/* pages/chat/chat.wxss */
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  padding: 20rpx;
+  background: url('https://snnubus-1321757084.cos.ap-nanjing.myqcloud.com/bg/bg1.jpg');
+}
+
+.message-container {
+  flex: 1;
+  overflow-y: scroll;
+  padding: 10rpx;
+  -webkit-overflow-scrolling: touch; /* 开启惯性滚动 */
+}
+
+.message-item {
+  margin-bottom: 10rpx;
+}
+
+.message-me {
+  display: flex;
+  background: #d1e9c5;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #d1e9c5, #d1e9c5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #f0fcea, #d1e9c5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #d1e9c5;
+  padding: 10rpx;
+  border-radius: 10rpx;
+  align-self: flex-end; /* 右对齐 */
+}
+
+.message-me-left {
+  flex: 1; /* 左侧内容占据剩余空间 */
+  display: flex; /* 内部使用 Flexbox 布局 */
+  align-items: center; /* 垂直居中对齐 */
+}
+.message-box {
+
+  flex: 2; /* 右侧内容占据剩余空间 */
+  display: flex; /* 内部使用 Flexbox 布局 */
+  flex-direction: column;
+  font-size: 18rpx; /* 缩小字体大小 */
+  align-self: flex-end; /* 右对齐 */
+  margin-left: auto; /* 整体靠右 */
+}
+
+
+.message-other {
+  display: flex;
+  background-color: white;
+  padding: 10rpx;
+  border-radius: 10rpx;
+  align-self: flex-start; /* 左对齐 */
+}
+
+
+
+
+
+.user-message {
+  display: flex;
+  padding: 48rpx 24rpx;
+  margin: 24rpx 24rpx 0;
+  background: #f4f09e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f8dba9, #f4f09e);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f8dba9, #f4f09e); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #f0cf70;
+  border-radius: 16rpx;
+}
+.user_img {
+  position: relative;
+  width: 120rpx;
+  height: 100rpx;
+  border-radius: 50%;
+  border: 4rpx solid #987238;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  margin-right: 32rpx;
+  margin-left: auto; /* 头像靠右 */
+}
+.Identity {
+
+  border-radius: 30rpx;
+
+  width: 500rpx;
+  height: 60rpx;
+  line-height: 40rpx;
+  font-size: 24rpx;
+  color: gray;
+  letter-spacing: 2rpx;
+  text-align: left;
+}
